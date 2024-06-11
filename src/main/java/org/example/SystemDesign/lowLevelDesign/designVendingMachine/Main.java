@@ -2,6 +2,8 @@ package org.example.SystemDesign.lowLevelDesign.designVendingMachine;
 
 import org.example.SystemDesign.lowLevelDesign.designVendingMachine.vendingStates.State;
 
+//question asked in Waltmart
+// vending machine can be designed using state design pattern or chain of responsibility pattern
 public class Main {
     public static void main(String[] args) {
         VendingMachine vendingMachine = new VendingMachine();
