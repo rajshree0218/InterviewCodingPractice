@@ -1,4 +1,4 @@
-package org.example.SystemDesign.lowLevelDesign._02_structuralDesignPatterns.flyWeightPattern.wordProcessor;
+package org.example.SystemDesign.lowLevelDesign._02_structuralDesignPatterns.flyWeightPattern.designWordProcessor;
 
 public class Main {
 

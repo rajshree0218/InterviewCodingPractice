@@ -1,8 +1,9 @@
-package org.example.SystemDesign.lowLevelDesign._02_structuralDesignPatterns.flyWeightPattern;
+package org.example.SystemDesign.lowLevelDesign._02_structuralDesignPatterns.flyWeightPattern.designRobotGame;
 
 import java.util.HashMap;
 import java.util.Map;
 
+// caching the data
 public class RoboticFactory {
 
     private static Map<String, IRobot> roboticObjectCache = new HashMap<>();
