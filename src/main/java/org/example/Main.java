@@ -46,4 +46,31 @@ public class Main {
             System.out.println("i = " + i);
         }
     }
+
+    /*
+    todo: g
+    https://lnkd.in/gUEmHXh4
+
+    𝟏. 𝐃𝐞𝐬𝐢𝐠𝐧𝐢𝐧𝐠 𝐚 𝐔𝐑𝐋 𝐒𝐡𝐨𝐫𝐭𝐞𝐧𝐞𝐫
+Question: How would you design a URL shortening service like bit.ly?
+Answer: This section walks you through the key components like choosing a hashing algorithm, database schema design, handling redirects, and managing high availability.
+Reference: https://lnkd.in/gUEmHXh4
+
+𝟐. 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐚 𝐒𝐜𝐚𝐥𝐚𝐛𝐥𝐞 𝐂𝐡𝐚𝐭 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧
+Question: How would you design a real-time chat application like WhatsApp?
+Answer: The blog explains the architecture needed to handle messaging, real-time updates, offline capabilities, and the importance of ensuring message consistency and delivery.
+Reference: https://lnkd.in/g6J6jJ8R
+
+𝟑. 𝐂𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐚 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐒𝐞𝐫𝐯𝐢𝐜𝐞
+Question: How would you design a service like Google Drive or Dropbox?
+Answer: Learn about handling large files, ensuring data consistency, synchronization across devices, and supporting offline access. The detailed explanation covers both the technical challenges and solutions.
+Reference: https://lnkd.in/gH7NUFiq
+
+𝟒. 𝐃𝐞𝐬𝐢𝐠𝐧𝐢𝐧𝐠 𝐚 𝐑𝐢𝐝𝐞-𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐒𝐞𝐫𝐯𝐢𝐜𝐞
+Question: How would you design a ride-sharing service like Uber?
+Answer: This part dives into real-time tracking, efficient driver-passenger matching, calculating ETA, and managing the backend systems to support millions of users.
+Reference: https://lnkd.in/garfiaFk
+
+Checkout my free blog on system design crash course blog: https://lnkd.in/gzsFa_nk
+    * */
 }
