@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-06-12T17:28:23.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="AvtLQjeztu6_YuX6pDEq" version="24.5.2" type="device">
+  <diagram name="Page-1" id="S8YTOZrHcixdIfj45pyo">
+    <mxGraphModel dx="1992" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-161" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;getResource()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;releaseResource()&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="260" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-162" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;List&amp;lt;Resource&amp;gt; freeList&lt;/font&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;List&amp;lt;Resource&amp;gt; inUseList&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;int INITIAL_POOL_SIZE&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;int MAX_POOL_SIZE&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-163" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-164" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Resource&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.016;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="y_LOewsV7nvVLv3fSRSS-162">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="570" as="sourcePoint" />
+            <mxPoint x="180" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-166" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="y_LOewsV7nvVLv3fSRSS-164">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="559.17" as="sourcePoint" />
+            <mxPoint x="706" y="559.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-167" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Resource Pool Manager&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-168" value="has-a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_LOewsV7nvVLv3fSRSS-169" value="has-a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
