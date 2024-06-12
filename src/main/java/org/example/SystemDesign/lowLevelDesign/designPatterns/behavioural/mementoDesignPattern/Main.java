@@ -24,6 +24,8 @@ public class Main {
         // initiate state of the originator
         ConfigurationOriginator originator = new ConfigurationOriginator(5,10);
 
+        System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
+
         //save it
         ConfigurationMemento snapshot1 = originator.createMemento();
         // add it to the history
@@ -31,6 +33,9 @@ public class Main {
         //originator changing to new state
         originator.setHeight(7);
         originator.setWidth(12);
+
+        System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
+
 
         //save it
         ConfigurationMemento snapshot2 = originator.createMemento();
@@ -44,9 +49,13 @@ public class Main {
         System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
         //UNDO
         ConfigurationMemento restoredStateMementoObj = caretaker.undo();
-        originator.restoreMemento(restoredStateMementoObj);
 
         System.out.println("After UNDO :");
+        System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
+        //restore
+        originator.restoreMemento(restoredStateMementoObj);
+
+        System.out.println("After Restore :");
         System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
 
     }
