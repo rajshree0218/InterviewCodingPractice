@@ -11,6 +11,21 @@ package org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.media
 * objects never interact with each other. they do interact with Mediator.
 *
 *
+*
+* Mediator looks like Observer or Proxy, but they are not same.
+*
+* -In Observer Pattern they have multiple observer, any change happen to the observable,
+* this notifies to all observer. Like how our mediator is doing. Any message mediator receives
+* from any object it calls other, it notifies all others bidder in mediator.
+* so intent is different in both pattern and the problem we are solving is different.
+*
+* -In Proxy Pattern, we have proxy, whenever someone is trying to access the object,
+* it goes through the proxy and from proxy it will go to object, and from object it will go to
+* proxy and from proxy to other object. here proxy is trying to do lazy loading, whenever request
+* come it will have lots of validation and checking, whether are you authorized to invoke this or not etc.
+* then based on that it will call actual object.
+*
+*
 * */
 public class Main {
     public static void main(String[] args) {
