@@ -1,8 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.commandPattern.withoutCommandDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.commandPattern.withoutCommandDesignPattern.AirConditioner;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.commandPattern.withoutCommandDesignPattern.Bulb;
-
 /*
  * Let's take use case of Remote control which can control various home appliances and with that let's understand problem, then we will go with this pattern.
  * */
@@ -25,7 +22,7 @@ public class Main {
         ac.setTemperature(24);
         ac.turnOffAc();
 
-        org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.commandPattern.withoutCommandDesignPattern.Bulb bulb = new Bulb();
+        Bulb bulb = new Bulb();
         bulb.turnOnBulb();
         bulb.turnOffBulb();
     }

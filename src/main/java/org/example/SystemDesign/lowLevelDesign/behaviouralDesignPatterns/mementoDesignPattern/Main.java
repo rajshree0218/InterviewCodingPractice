@@ -1,8 +1,9 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.caretaker.ConfigurationCaretaker;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.memento.ConfigurationMemento;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.originator.ConfigurationOriginator;
+
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.caretaker.ConfigurationCaretaker;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.memento.ConfigurationMemento;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.originator.ConfigurationOriginator;
 
 /*
 * Memento Design Pattern / Snapshot Design Pattern
@@ -23,7 +24,6 @@ public class Main {
         ConfigurationCaretaker caretaker = new ConfigurationCaretaker();
         // initiate state of the originator
         ConfigurationOriginator originator = new ConfigurationOriginator(5,10);
-
         System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
 
         //save it
@@ -33,9 +33,7 @@ public class Main {
         //originator changing to new state
         originator.setHeight(7);
         originator.setWidth(12);
-
         System.out.println("height: "+originator.getHeight()+" width: "+originator.getWidth());
-
 
         //save it
         ConfigurationMemento snapshot2 = originator.createMemento();

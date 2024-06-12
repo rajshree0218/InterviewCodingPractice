@@ -1,10 +1,11 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observable.IphoneObservableImpl;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observable.StockObservable;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observer.EmailAlertObserverImpl;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observer.MobileAlertObesrverImpl;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observer.NotificationAlertObserver;
+
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observable.IphoneObservableImpl;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observable.StockObservable;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer.EmailAlertObserverImpl;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer.MobileAlertObesrverImpl;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer.NotificationAlertObserver;
 
 public class Store {
     public static void main(String[] args) {

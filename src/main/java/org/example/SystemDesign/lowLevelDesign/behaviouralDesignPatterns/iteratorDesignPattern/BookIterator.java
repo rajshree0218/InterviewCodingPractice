@@ -1,13 +1,10 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.iteratorDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Iterator;
-
 import java.util.List;
 
 public class BookIterator implements Iterator {
 
-    private List<org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book> books;
+    private List<Book> books;
     private int index = 0;
 
     public BookIterator(List<Book> books) {

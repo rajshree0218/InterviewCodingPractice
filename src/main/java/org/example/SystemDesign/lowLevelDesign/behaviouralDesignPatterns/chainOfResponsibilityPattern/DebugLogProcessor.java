@@ -1,8 +1,7 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.chainOfResponsibilityPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.chainOfResponsibilityPattern.LogProcessor;
 
-public class DebugLogProcessor extends org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.chainOfResponsibilityPattern.LogProcessor {
+public class DebugLogProcessor extends LogProcessor {
 
     DebugLogProcessor(LogProcessor nextLogProcessor){
         super(nextLogProcessor);

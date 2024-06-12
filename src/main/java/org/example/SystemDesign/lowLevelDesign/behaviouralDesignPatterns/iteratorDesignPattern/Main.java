@@ -1,9 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.iteratorDesignPattern;
 
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Library;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -19,18 +16,18 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book> list = Arrays.asList(
-                new org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book(100, "Science"),
-                new org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book(200, "Maths"),
-                new org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book(300, "English"),
-                new org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book(400, "GK")
+        List<Book> list = Arrays.asList(
+                new Book(100, "Science"),
+                new Book(200, "Maths"),
+                new Book(300, "English"),
+                new Book(400, "GK")
         );
 
         Library lib = new Library(list);
         Iterator iterator = lib.createIterator();
 
         while(iterator.hasNext()){
-            org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iteratorDesignPattern.Book book = (Book) iterator.next();
+            Book book = (Book) iterator.next();
             System.out.println(book.getBookName());
         }
     }

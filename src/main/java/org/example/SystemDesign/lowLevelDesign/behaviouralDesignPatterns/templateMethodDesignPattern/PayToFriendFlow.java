@@ -1,7 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.templateMethodDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.templateMethodDesignPattern.PaymentFlow;
-
 public class PayToFriendFlow extends PaymentFlow {
 
     @Override

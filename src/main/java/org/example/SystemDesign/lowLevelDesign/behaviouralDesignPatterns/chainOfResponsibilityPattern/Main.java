@@ -1,7 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.chainOfResponsibilityPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.chainOfResponsibilityPattern.LogProcessor;
-
 // Design an ATM/Vending Machine/ Logger etc
 public class Main {
     public static void main(String[] args) {

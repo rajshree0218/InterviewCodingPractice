@@ -1,15 +1,12 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.iterpreterDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.AbstractExpression;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.Context;
+public class BinaryNonTerminalExpression implements AbstractExpression {
 
-public class BinaryNonTerminalExpression implements org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.AbstractExpression {
-
-    org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.AbstractExpression leftExpression;
-    org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.AbstractExpression rightExpression;
+    AbstractExpression leftExpression;
+    AbstractExpression rightExpression;
     char operator;
 
-    public BinaryNonTerminalExpression(org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.iterpreterDesignPattern.AbstractExpression leftExpression,
+    public BinaryNonTerminalExpression(AbstractExpression leftExpression,
                                        AbstractExpression rightExpression,
                                        char operator){
         this.leftExpression = leftExpression;

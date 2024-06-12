@@ -1,6 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observable;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observer.NotificationAlertObserver;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer.NotificationAlertObserver;
 
 public interface StockObservable {
 

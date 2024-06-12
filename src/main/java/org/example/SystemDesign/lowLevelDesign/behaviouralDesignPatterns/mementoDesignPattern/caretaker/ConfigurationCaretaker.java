@@ -1,6 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.caretaker;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.memento.ConfigurationMemento;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.memento.ConfigurationMemento;
 
 import java.util.ArrayList;
 import java.util.List;

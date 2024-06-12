@@ -1,7 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observable;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observable.StockObservable;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observer.NotificationAlertObserver;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer.NotificationAlertObserver;
 
 import java.util.ArrayList;
 import java.util.List;

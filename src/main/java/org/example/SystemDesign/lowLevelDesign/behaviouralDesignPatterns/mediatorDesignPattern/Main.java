@@ -1,7 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mediatorDesignPattern;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mediatorDesignPattern.AuctionMediator;
-
 /*
 * Mediator Design Pattern
 * LLD: Online Auction System

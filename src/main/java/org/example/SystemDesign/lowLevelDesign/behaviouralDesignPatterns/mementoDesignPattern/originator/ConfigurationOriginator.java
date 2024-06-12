@@ -1,6 +1,7 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.originator;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.memento.ConfigurationMemento;
+
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.memento.ConfigurationMemento;
 
 public class ConfigurationOriginator {
 

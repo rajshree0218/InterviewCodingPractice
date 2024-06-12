@@ -1,7 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.nullObjectDesignPattern.HandleNullObject;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.nullObjectDesignPattern.HandleNullObject.Vehicle;
-
 /*
 * Object either will have null as a value or it will have specific value.
 *

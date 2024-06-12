@@ -1,6 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observer;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.observerPattern.observable.StockObservable;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.observerPattern.observable.StockObservable;
 
 public class MobileAlertObesrverImpl implements NotificationAlertObserver{
     String userName;

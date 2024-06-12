@@ -1,7 +1,6 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.commandPattern.withCommandDesignPattern.command;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.commandPattern.withCommandDesignPattern.command.ICommand;
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.commandPattern.withCommandDesignPattern.receiver.AirConditioner;
+import org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.commandPattern.withoutCommandDesignPattern.AirConditioner;
 
 public class SetACTempCommand implements ICommand {
     AirConditioner ac;

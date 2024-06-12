@@ -1,7 +1,5 @@
 package org.example.SystemDesign.lowLevelDesign.behaviouralDesignPatterns.mementoDesignPattern.memento;
 
-import org.example.SystemDesign.lowLevelDesign.designPatterns.behavioural.mementoDesignPattern.originator.ConfigurationOriginator;
-
 public class ConfigurationMemento {
 
     public int height;
