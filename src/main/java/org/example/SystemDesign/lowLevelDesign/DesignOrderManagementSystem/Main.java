@@ -90,14 +90,11 @@ public class Main {
             }
         }
 
-
         //4. add product to the cart
         productDeliverySystem.addProductToCart(user, productCategoryIWantToOrder, 2);
 
-
         //4. place order
         Order order = productDeliverySystem.placeOrder(user, warehouse);
-
 
         //5. checkout
         productDeliverySystem.checkout(order);
