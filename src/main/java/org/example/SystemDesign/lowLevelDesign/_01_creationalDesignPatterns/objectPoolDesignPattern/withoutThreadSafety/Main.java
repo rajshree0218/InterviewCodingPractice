@@ -1,4 +1,4 @@
-package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern;
+package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern.withoutThreadSafety;
 
 /*
 * Object Pool Design Pattern

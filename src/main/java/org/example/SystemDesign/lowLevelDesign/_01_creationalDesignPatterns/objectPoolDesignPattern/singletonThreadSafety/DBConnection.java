@@ -1,4 +1,4 @@
-package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern;
+package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern.singletonThreadSafety;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

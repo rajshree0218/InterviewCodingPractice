@@ -1,19 +1,33 @@
-package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern;
+package org.example.SystemDesign.lowLevelDesign._01_creationalDesignPatterns.objectPoolDesignPattern.singletonThreadSafety;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DBConnectionPoolManager {
 
-    List<DBConnection> freeConnectionInPool = new ArrayList<>();
-    List<DBConnection> connectionCurrentlyInUse = new ArrayList<>();
-    int INITIAL_POOL_SIZE = 3;
-    int MAX_POOL_SIZE = 6;
+    private List<DBConnection> freeConnectionInPool = new ArrayList<>();
+    private List<DBConnection> connectionCurrentlyInUse = new ArrayList<>();
+    private int INITIAL_POOL_SIZE = 3;
+    private int MAX_POOL_SIZE = 6;
+    private static DBConnectionPoolManager dbConnectionPoolManager = null;
 
-    public DBConnectionPoolManager(){
+
+    private DBConnectionPoolManager(){
         for(int i=0; i<INITIAL_POOL_SIZE; i++){
             freeConnectionInPool.add(new DBConnection());
         }
+    }
+
+    public static DBConnectionPoolManager getInstance(){
+        if(dbConnectionPoolManager == null){
+            synchronized (DBConnectionPoolManager.class){
+                if(dbConnectionPoolManager == null){
+                    dbConnectionPoolManager = new DBConnectionPoolManager();
+                }
+            }
+        }
+        return dbConnectionPoolManager;
     }
 
     public DBConnection getDBConnection(){
