@@ -1,0 +1,72 @@
+four-----------------------------------
+-------Hibernate--------
+Many to many mapping
+One to many mapping
+One to One mapping
+Many to one mapping
+n+1 problem
+lazy loading
+EntityManager + Session Factory + JPA
+
+----Spring Security-----
+jwt token
+interceptor
+
+----logging-----
+log4j
+
+------Springboot-------
+Qualifier
+ConfigurationProperties
+@ConditionalOnProperty
+Service + component
+spring boot performance increase
+application profiling
+
+-------Caching-------
+Redis
+Springboot Caching
+
+-------Java----------
+GC
+Executor Framework
+Callable + Runnable + volatile
+Computable Future
+Memory management
+Stream (https://medium.com/@thetechholic/working-with-streams-in-java-a-comprehensive-guide-with-detailed-explanation-and-examples-da3abd5f99df,
+https://theboreddev.com/understanding-java-streams/)
+OOPS
+Immutability
+Singleton
+
+------Exception Handling-----
+Spring Exception Handling
+Exception overloading
+checked vs unchecked exceptions
+
+------Design Pattern-----
+Creational Pattern
+--> Factory
+--> Singleton
+--> Builder
+Structural Pattern
+--> Adapter
+--> Facade
+Behavioral Pattern
+--> Strategy
+--> Observer
+--> Mediator
+
+----- Microservice-----
+Api Gateway
+Circuit Breaker
+Event Driven
+Orchestrator
+Springboot Resiliency
+
+-------Kafka------
+Offset
+Kafka Broker
+ZooKeeper
+Producer + Consumer
+-----------------------------------
